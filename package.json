@@ -1,0 +1,16 @@
+{
+  "name": "dev",
+  "scripts": {
+    "dev": "node ./server.js",
+    "watch": "nodemon ./server.js"
+  },
+  "dependencies": {
+   
+    "nunjucks": "^3.2.2",
+    "sqlite": "^4.0.14",
+    "sqlite-async": "^1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
